@@ -1,6 +1,6 @@
 ## 릴레이
 릴레이는 입력에 따라 내부 스위치를 바꾸어, 출력을 제어하는 장치다.
-![릴레이](/../assets/step1-relay.png)
+![릴레이](https://user-images.githubusercontent.com/40727649/61183444-89d36980-a67c-11e9-89a2-939448a46a2d.png)
 
 입력에 전류가 흐르면(1, True) 전자석이 작동한다.  
 내부 스위치가 닫혔으므로 출력부분에서 1, True가 검출된다.
@@ -8,18 +8,18 @@
 ## AND 게이트
 && 연산과 같다.  
 두개의 입력을 받는다. 둘 모두 true일 때만 출력이 true가 된다.
-![and](/../assets/step1-and.png)
+![and](https://user-images.githubusercontent.com/40727649/61183447-9061e100-a67c-11e9-917e-a323ec1bd780.png)
 
 기호로 표시할 때 다음과 같이 표시한다.  
-![and_symbol](/../assets/step1-and-symbol.png)
+![and_symbol](https://user-images.githubusercontent.com/40727649/61183449-98ba1c00-a67c-11e9-86dc-dfa51fed8fb1.png)
 
 ## OR 게이트
 || 연산과 같다.  
 두개의 입력을 받는다. 하나 이상이 true이면 출력이 true가 된다.
-![or](/../assets/step1-or.png)
+![or](https://user-images.githubusercontent.com/40727649/61183446-8c35c380-a67c-11e9-9e09-737b73372ffc.png)
 
 기호로 표시할 때 다음과 같이 표시한다.  
-![or_symbol](/../assets/step1-or-symbol.png)
+![or_symbol](https://user-images.githubusercontent.com/40727649/61183455-9e176680-a67c-11e9-98a8-db975e9886af.png)
 
 ## INVERTOR
 ! 연산과 같다.  
@@ -27,7 +27,7 @@
 ![invertor](/../assets/step1-inverter.png)
 
 기호로 표시할 때는 끝에 버블을 붙인다.  
-![invertor_symbol](/../assets/step1-inverter-symbol.png)
+![invertor_symbol](https://user-images.githubusercontent.com/40727649/61183470-bab39e80-a67c-11e9-8500-72fb0d8de9fe.png)
 
 ## (참고)카르노 맵
 불 대수를 표현하기 위한 표.  
