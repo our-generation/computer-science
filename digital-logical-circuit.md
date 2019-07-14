@@ -24,14 +24,14 @@
 ## INVERTOR
 ! 연산과 같다.  
 출력이 true이면 false로, false이면 true로 바꾼다.
-![invertor](/../assets/step1-inverter.png)
+![invertor](https://user-images.githubusercontent.com/40727649/61183469-bab39e80-a67c-11e9-8bf9-4fe52b8c04c6.png)
 
 기호로 표시할 때는 끝에 버블을 붙인다.  
 ![invertor_symbol](https://user-images.githubusercontent.com/40727649/61183470-bab39e80-a67c-11e9-8500-72fb0d8de9fe.png)
 
 ## (참고)카르노 맵
 불 대수를 표현하기 위한 표.  
-![카르노맵](/../assets/K-map_minterms_A.svg.png)
+![카르노맵](https://user-images.githubusercontent.com/40727649/61183465-ba1b0800-a67c-11e9-8993-bb79d220ba1a.png)
 
 ## NAND 게이트
 INVERTOR + AND 게이트.  
@@ -77,13 +77,13 @@ bool nor(bool A, bool B){
 
 ### 구현방법
 - NAND 이용  
-![xor-nand](/../assets/300px-XOR_from_NAND.svg.png)
+![xor-nand](https://user-images.githubusercontent.com/40727649/61183467-ba1b0800-a67c-11e9-8ee3-3ca1e860f9f2.png)
 
 - NOR 이용  
-![xor-nor](/../assets/320px-XOR_from_NOR.svg.png)
+![xor-nor](https://user-images.githubusercontent.com/40727649/61183468-ba1b0800-a67c-11e9-916e-c8aa87b1dc5d.jpg)
 
 - NAND, OR, AND 이용  
-![xor-mixed](/../assets/254px_3gate_XOR.jpg)
+![xor-mixed](https://user-images.githubusercontent.com/40727649/61183466-ba1b0800-a67c-11e9-8c68-cbd9db8f3495.png)
 
 - 구현
 ```cpp
@@ -97,7 +97,7 @@ bool xor(bool A, bool B){
 ## 이진 덧셈기
 
 ### 반가산기
-![반가산기](/../assets/step1-halfadder.png)  
+![반가산기](https://user-images.githubusercontent.com/40727649/61183463-b9827180-a67c-11e9-82cd-a7352454718d.png)  
 
 
 | 합 | 0 | 1 |
@@ -124,7 +124,7 @@ bool *halfadder(bool A, bool B){
 ```
 
 ### 전가산기
-![전가산기](/../assets/step1-fulladder-symbol.png)
+![전가산기](https://user-images.githubusercontent.com/40727649/61183464-b9827180-a67c-11e9-8558-1591c0bc1d57.png)
 
 ```cpp
 bool *fulladder(bool A, bool B, bool carry){
